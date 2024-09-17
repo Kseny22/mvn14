@@ -12,7 +12,6 @@ public class ShopRepository {
         return tmp;
     }
 
-
     public void add(Product product) {
         products = addToArray(products, product);
     }
